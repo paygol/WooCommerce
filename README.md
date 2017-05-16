@@ -15,11 +15,15 @@
 
 ### About PayGol:
 
-- PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
-- Additional information can be found at:
-  https://www.paygol.com  <br>
-  https://www.paygol.com/pricing
-  
+- PayGol is an online payment service provider offering a wide variety of both worldwide and local payment methods including (but not limited to)
+credit card, debit card, bank transfer and cash payments. Local payment methods supported include WebPay, OXXO, Boleto, DineroMail, MercadoPago 
+and many others. The simplicity of its integration makes it very easy for anyone to use it, and this
+ease of use translates perfectly to this plugin.
+
+- Website:         https://www.paygol.com
+
+- Payment methods: https://www.paygol.com/pricing
+
 
 ### About this module
 Contributors: paygol
@@ -30,18 +34,9 @@ Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-PayGol is an online payment service provider offering a wide variety of both worldwide and local payment methods.
 
-### Description 
 
-PayGol is an online payment service provider offering a wide variety of both worldwide and local payment methods including (but not limited to)
-credit card, debit card, bank transfer and cash payments. Local payment methods supported include WebPay, OXXO, Boleto, DineroMail, MercadoPago 
-and many others. The simplicity of its integration makes it very easy for anyone to use it, and this
-ease of use translates perfectly to this plugin.
 
-Website:         https://www.paygol.com
-
-Payment methods: https://www.paygol.com/pricing
 
 ### Installation 
 
