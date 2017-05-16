@@ -64,7 +64,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
 ### Recommendations and important notes 
 
 - Test your service by enabling test mode on your service (the Enabled/Testing button at "`My Services`", at the PayGol panel).
-  Be sure to change it back to "Enabled" once you are done testing.
+  Be sure to change it back to "`Enabled`" once you are done testing.
 
 - Some payment methods provided by PayGol (such as credit card payments) will confirm the payment immediately, so the payer will 
   see the payment status as "`Completed`". However, other payment methods (such as local cash payment services) may take longer 
