@@ -20,7 +20,7 @@ credit card, debit card, bank transfer and cash payments. Local payment methods 
 and many others. The simplicity of its integration makes it very easy for anyone to use it, and this
 ease of use translates perfectly to this plugin.
 
-- Website:         https://www.paygol.com
+- Website:         https://www.paygol.com  <br>
 - Payment methods: https://www.paygol.com/pricing
 
 
