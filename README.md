@@ -1,6 +1,27 @@
-# WooCommerce
-=== PayGol for WooCommerce ===
+<img src="paygol_logo.png" alt="PayPal - WooCommerce" />
 
+
+# WooCommerce
+## PayGol for WooCommerce<br>
+[About PayGol](#about-paygol) <br>
+[About this module](#about-this-module) <br>
+[Description](#description) <br>
+[Installation](#installation) <br>
+[Changelog](#changelog) <br>
+[Recommendations and important notes](#recommendations-and-important-notes) <br>
+
+
+
+
+### About PayGol:
+
+- PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
+- Additional information can be found at:
+  https://www.paygol.com  <br>
+  https://www.paygol.com/pricing
+  
+
+### About this module
 Contributors: paygol
 Tags: paygol, woocommerce, payment, gateway, credit, card, credit card, webpay, tarjeta, paysafecard, oxxo, boleto, bitcoin, sms, shortcode, keyword, sms premium, sms billing, paygol, worldwide payments, e-commerce, ecommerce, mobile payments, pay by phone, pay by sms, pay per call
 Requires at least: 3.7.0
@@ -11,7 +32,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 PayGol is an online payment service provider offering a wide variety of both worldwide and local payment methods.
 
-== Description ==
+### Description 
 
 PayGol is an online payment service provider offering a wide variety of both worldwide and local payment methods including (but not limited to)
 credit card, debit card, bank transfer and cash payments. Local payment methods supported include WebPay, OXXO, Boleto, DineroMail, MercadoPago 
@@ -22,7 +43,7 @@ Website:         https://www.paygol.com
 
 Payment methods: https://www.paygol.com/pricing
 
-== Installation ==
+### Installation 
 
 - You'll need a working WordPress installation using the WooCommerce plugin (tested on versions 2.3.0 up to 2.6.14).
 
@@ -41,19 +62,19 @@ Payment methods: https://www.paygol.com/pricing
   * Paste the provided IPN URL into the "Background URL (IPN)" setting at your service's configuration 
     at your PayGol panel (click the pencil icon at "My Services" to edit your service).
 
-== Changelog ==
+### Changelog 
 
-= 1.2 =
+#### 1.2 
 * New release, tested with WordPress 3.7.0 up to 4.7.3, and WooCommerce 2.3.0 up to 2.6.14.
 * Updated with new logo.
                                                                 
-= 1.1 =
+#### 1.1 
 * New release, tested with WordPress 3.7.0 up to 4.6.1, and WooCommerce 2.3.0 up to 2.6.7.
 
-= 1.0 =
+#### 1.0 
 * Initial release.
 
-== Recommendations and important notes ==
+### Recommendations and important notes 
 
 - Test your service by enabling test mode on your service (the Enabled/Testing button at "My Services", at the PayGol panel).
   Be sure to change it back to "Enabled" once you are done testing.
