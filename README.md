@@ -10,7 +10,7 @@
 [Changelog](#changelog) <br>
 [Recommendations and important notes](#recommendations-and-important-notes) <br>
 
-
+---
 
 
 ### About PayGol:
@@ -85,3 +85,6 @@ Payment methods: https://www.paygol.com/pricing
   by the local payments provider, the status will internally be updated to "Completed". Depending on your specific
   needs, you may want to use the "Hold Stock" WooCommerce setting if you need to make sure that stock is available for payments
   that are not notified immediately.
+
+
+---
