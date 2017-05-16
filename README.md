@@ -5,7 +5,6 @@
 ## PayGol for WooCommerce<br>
 [About PayGol](#about-paygol) <br>
 [About this module](#about-this-module) <br>
-[Description](#description) <br>
 [Installation](#installation) <br>
 [Changelog](#changelog) <br>
 [Recommendations and important notes](#recommendations-and-important-notes) <br>
