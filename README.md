@@ -18,8 +18,7 @@
 credit card, debit card, bank transfer and cash payments. Local payment methods supported include WebPay, OXXO, Boleto, DineroMail, MercadoPago 
 and many others. The simplicity of its integration makes it very easy for anyone to use it, and this
 ease of use translates perfectly to this plugin.
-
-- Website:         https://www.paygol.com  <br>
+- Website:         https://www.paygol.com  
 - Payment methods: https://www.paygol.com/pricing
 
 
