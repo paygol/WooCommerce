@@ -2,7 +2,7 @@
 
 
 # WooCommerce
-## PayGol for WooCommerce<br>
+## PayGol for WooCommerce v1.3<br>
 [About PayGol](#about-paygol) <br>
 [About this module](#about-this-module) <br>
 [Installation](#installation) <br>
@@ -63,19 +63,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
 
 ### Changelog 
 
-#### 1.3 
+#### v1.3 
 * New release, tested with WordPress 3.7.0 up to 4.7.5, and WooCommerce 2.3.0 up to 3.0.7
 * Updated with new logo.
 * Added validation for payment notifications.
 
-#### 1.2 
+#### v1.2 
 * New release, tested with WordPress 3.7.0 up to 4.7.3, and WooCommerce 2.3.0 up to 2.6.14.
 * Updated with new logo.
                                                                 
-#### 1.1 
+#### v1.1 
 * New release, tested with WordPress 3.7.0 up to 4.6.1, and WooCommerce 2.3.0 up to 2.6.7.
 
-#### 1.0 
+#### v1.0 
 * Initial release.
 
 ---
