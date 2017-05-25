@@ -6,8 +6,8 @@
 [About PayGol](#about-paygol) <br>
 [About this module](#about-this-module) <br>
 [Installation](#installation) <br>
-[Changelog](#changelog) <br>
 [Recommendations and important notes](#recommendations-and-important-notes) <br>
+[Changelog](#changelog) <br>
 
 ---
 
@@ -26,8 +26,8 @@ ease of use translates perfectly to this plugin.
 Contributors: paygol <br>
 Tags: paygol, woocommerce, payment, gateway, credit, card, credit card, webpay, tarjeta, paysafecard, oxxo, boleto, bitcoin, sms, shortcode, keyword, sms premium, sms billing, paygol, worldwide payments, e-commerce, ecommerce, mobile payments, pay by phone, pay by sms, pay per call <br>
 Requires at least: 3.7.0 <br>
-Tested up to: 4.7.3 <br>
-Stable tag: 1.2 <br>
+Tested up to: 4.7.5 <br>
+Stable tag: 1.3 <br>
 License: GPLv2 <br>
 License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
 
@@ -35,7 +35,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
 
 ### Installation 
 
-- You'll need a working WordPress installation using the WooCommerce plugin (tested on versions 2.3.0 up to 2.6.14). <br>
+- You'll need a working WordPress installation using the WooCommerce plugin (tested on versions 2.3.0 up to 3.0.7). <br>
 - You'll also need a standard PayGol service  <br>
   You can create a PayGol account at https://www.paygol.com/register, then a service at https://www.paygol.com/webapps. <br>
 - Go to "`Plugins -> Add new`", search for the PayGol plugin in the WordPress Plugin Directory then click "`Install now`". <br>
@@ -44,21 +44,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
 - In your WordPress plugins panel, activate the PayGol plugin. <br>
 - Go to the checkout configuration and proceed to configure the plugin:
   * The text fields contain the text that will be used during the checkout process.
-  * The Service ID can be found near your service's name at "`My Services`", at your PayGol panel.
+  * The `Service ID` and `secret key` can be found near your service's name at "`My Services`", at your PayGol panel.
   * Paste the provided IPN URL into the "`Background URL (IPN)`" setting at your service's configuration 
     at your PayGol panel (click the pencil icon at "`My Services`" to edit your service).
 
-### Changelog 
-
-#### 1.2 
-* New release, tested with WordPress 3.7.0 up to 4.7.3, and WooCommerce 2.3.0 up to 2.6.14.
-* Updated with new logo.
-                                                                
-#### 1.1 
-* New release, tested with WordPress 3.7.0 up to 4.6.1, and WooCommerce 2.3.0 up to 2.6.7.
-
-#### 1.0 
-* Initial release.
 
 ### Recommendations and important notes 
 
@@ -72,5 +61,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
   needs, you may want to use the "`Hold Stock`" WooCommerce setting if you need to make sure that stock is available for payments
   that are not notified immediately.
 
+### Changelog 
+
+#### 1.3 
+* New release, tested with WordPress 3.7.0 up to 4.7.5, and WooCommerce 2.3.0 up to 3.0.7
+* Updated with new logo.
+* Added validation for payment notifications.
+
+#### 1.2 
+* New release, tested with WordPress 3.7.0 up to 4.7.3, and WooCommerce 2.3.0 up to 2.6.14.
+* Updated with new logo.
+                                                                
+#### 1.1 
+* New release, tested with WordPress 3.7.0 up to 4.6.1, and WooCommerce 2.3.0 up to 2.6.7.
+
+#### 1.0 
+* Initial release.
 
 ---
