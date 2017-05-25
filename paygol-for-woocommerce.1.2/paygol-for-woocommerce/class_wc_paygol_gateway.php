@@ -25,9 +25,8 @@ public function __construct() {
     $order = new WC_Order( $order_id );
     $service_id = $this->serviceID;  //var id service
     $status = $order->get_status(); //var status  order
-    if(!in_array($_SERVER['REMOTE_ADDR'],array('109.70.3.48', '109.70.3.146', '109.70.3.210'))) {
-        exit;
-    }            
+    ///
+            
      /// 
      if ($status!="cancelled") // != cancelled
      {
