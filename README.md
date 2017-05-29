@@ -46,7 +46,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
   * The text fields contain the text that will be used during the checkout process.
   * The `Service ID` and `secret key` can be found near your service's name at "`My Services`", at your Paygol panel.
   * Paste the provided IPN URL into the "`Background URL (IPN)`" setting at your service's configuration 
-    at your PayGol panel (click the pencil icon at "`My Services`" to edit your service).
+    at your Paygol panel (click the pencil icon at "`My Services`" to edit your service).
 
 
 ### Recommendations and important notes 
