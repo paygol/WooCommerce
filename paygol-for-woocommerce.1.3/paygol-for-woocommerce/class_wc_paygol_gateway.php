@@ -2,32 +2,32 @@
 class WC_PayGol_Gateway extends WC_Payment_Gateway {
 public function __construct() {
     $this->id			      	= 'paygol';
-	$this->icon 		    	= apply_filters('woocommerce_paygol_icon',plugins_url() . "/" . plugin_basename(dirname(__FILE__)) . '/images/paygol.png');
-	$this->has_fields 			= false; // 
-	$this->method_title   		= __( 'Paygol', "paygol_wc" );
+    $this->icon 		    	= apply_filters('woocommerce_paygol_icon',plugins_url() . "/" . plugin_basename(dirname(__FILE__)) . '/images/paygol.png');
+    $this->has_fields 			= false; // 
+    $this->method_title   		= __( 'Paygol', "paygol_wc" );
     //$this->method_description
-	$this->init_form_fields();
-	$this->init_settings();
+    $this->init_form_fields();
+    $this->init_settings();
     $this->title 		    	= apply_filters( 'woopaygol_title', __( 'Paygol','paygol_wc') );
-	$this->description    		= apply_filters( 'woopaygol_description', __( 'Paygol offers you worldwide coverage with a complete payment solution.','paygol_wc' ) );
+    $this->description    		= apply_filters( 'woopaygol_description', __( 'Paygol offers you worldwide coverage with a complete payment solution.','paygol_wc' ) );
     $this->serviceID      		= $this->get_option('serviceID') ;
-	$this->secretKEY      		= $this->get_option('secretKEY') ;
+    $this->secretKEY      		= $this->get_option('secretKEY') ;
     add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'process_admin_options' ) );
     add_action( 'woocommerce_receipt_paygol', array( $this, 'receipt_page' ) );
-	add_action( 'woocommerce_api_' . strtolower( get_class( $this ) ), array( &$this, 'paygol_ipn_response') );
+    add_action( 'woocommerce_api_' . strtolower( get_class( $this ) ), array( &$this, 'paygol_ipn_response') );
     add_action ('woocommerce_thankyou',array($this,'order_received'),1); 
 	}
   //////////////////////////////////////////////////////////////////////  
   	function paygol_ipn_response(){
 		global $woocommerce; // VAR GLOB
 		$get_filtered 	= filter_input_array(INPUT_GET);
-		$order_id 		= $get_filtered['custom'];  
-		$key 			= $get_filtered['key'];  
-		$sid 			= $get_filtered['service_id'];  
-		$order 			= new WC_Order( $order_id );
+		$order_id 	= $get_filtered['custom'];  
+		$key 		= $get_filtered['key'];  
+		$sid 		= $get_filtered['service_id'];  
+		$order 		= new WC_Order( $order_id );
 		$service_id 	= $this->serviceID;  
 		$secret_key 	= $this->secretKEY;  
-		$status 		= $order->get_status(); 
+		$status 	= $order->get_status(); 
     	
 		/////
 		if  ($key != $secret_key)
