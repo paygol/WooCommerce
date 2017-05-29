@@ -36,7 +36,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html <br>
 ### Installation 
 
 - You'll need a working `WordPress` installation using the `WooCommerce` plugin (tested on versions 2.3.0 up to 3.0.7). <br>
-- You'll also need a standard PayGol service  <br>
+- You'll also need a standard Paygol service  <br>
   You can create a Paygol account at https://www.paygol.com/register, then a service at https://www.paygol.com/webapps. <br>
 - Go to "`Plugins -> Add new`", search for the Paygol plugin in the WordPress Plugin Directory then click "`Install now`". <br>
   You can also click "`Upload plugin`" to manually upload the plugins' zip file, after which it will be installed automatically. <br>
