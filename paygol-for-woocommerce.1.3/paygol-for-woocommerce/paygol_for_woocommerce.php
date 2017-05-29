@@ -1,15 +1,15 @@
 <?php
 /*
 @wordpress-plugin
-Plugin Name: PayGol plugin for Woocommerce
+Plugin Name: Paygol plugin for Woocommerce
 Author URI: https://www.paygol.com
-Description: Paygol for Woocommerce. PayGol is an online payment service provider offering a wide variety of both worldwide and local payment methods including (but not limited to) credit card, debit card, bank transfer and cash payments. Local payment methods supported include WebPay, OXXO, Boleto, DineroMail, MercadoPago and many others. The simplicity of its integration makes it very easy for anyone to use it, and this ease of use translates perfectly to this plugin.
-Author: PayGol
+Description: Paygol for Woocommerce. Paygol is an online payment service provider offering a wide variety of both worldwide and local payment methods including (but not limited to) credit card, debit card, bank transfer and cash payments. Local payment methods supported include WebPay, OXXO, Boleto, DineroMail, MercadoPago and many others. The simplicity of its integration makes it very easy for anyone to use it, and this ease of use translates perfectly to this plugin.
+Author: Paygol
 Version: 1.3
 License: GNU General Public License v2
 Text Domain: paygol_wc
 */
-$plugin_header_translate = array( __('PayGol for WooCommerce', 'paygol_wc'), __('Allows your customers from all around the world to pay by using a wide variety of both international and local payment methods including credit cards, debit cards (including Redcompra through WebPay), electronic bank transfers, cash payments, OXXO, Boleto Bancario, MercadoPago and much more through the PayGol online payment platform.', 'paygol_wc') );
+$plugin_header_translate = array( __('Paygol for WooCommerce', 'paygol_wc'), __('Allows your customers from all around the world to pay by using a wide variety of both international and local payment methods including credit cards, debit cards (including Redcompra through WebPay), electronic bank transfers, cash payments, OXXO, Boleto Bancario, MercadoPago and much more through the Paygol online payment platform.', 'paygol_wc') );
 add_action( 'plugins_loaded', 'paygol_plugins_loaded' );
 add_action( 'init', 'paygol_init' );
 //////////////////////////////////////////////////////////////////////

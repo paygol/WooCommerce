@@ -18,37 +18,37 @@ msgstr ""
 
 #: ../class_wc_paygol_gateway.php:7 ../class_wc_paygol_gateway.php:11
 #: ../class_wc_paygol_gateway.php:99
-msgid "PayGol"
-msgstr "PayGol"
+msgid "Paygol"
+msgstr "Paygol"
 
 #: ../class_wc_paygol_gateway.php:12
-msgid "PayGol offers you worldwide coverage with a complete payment solution"
+msgid "Paygol offers you worldwide coverage with a complete payment solution"
 msgstr ""
-"PayGol ofrece cobertura en todo el mundo con una solución de pago completa"
+"Paygol ofrece cobertura en todo el mundo con una solución de pago completa"
 
 #: ../class_wc_paygol_gateway.php:74
 msgid "Enable/Disable"
 msgstr "Activar/Desactivar"
 
 #: ../class_wc_paygol_gateway.php:76
-msgid "Enable PayGol payments"
-msgstr "Permitir pagos mediante PayGol"
+msgid "Enable Paygol payments"
+msgstr "Permitir pagos mediante Paygol"
 
 #: ../class_wc_paygol_gateway.php:80
 msgid "Service ID"
 msgstr "ID Servicio"
 
 #: ../class_wc_paygol_gateway.php:82
-msgid "This is the ID of your PayGol service"
-msgstr "Este es el ID de tu servicio de PayGol"
+msgid "This is the ID of your Paygol service"
+msgstr "Este es el ID de tu servicio de Paygol"
 
 #: ../class_wc_paygol_gateway.php:87
 msgid "Secret Key"
 msgstr "Clave secreta"
 
 #: ../class_wc_paygol_gateway.php:89
-msgid "This is the secret key of your PayGol service"
-msgstr "Este es la clave secreta de tu servicio de PayGol"
+msgid "This is the secret key of your Paygol service"
+msgstr "Este es la clave secreta de tu servicio de Paygol"
 
 #: ../class_wc_paygol_gateway.php:103
 msgid "Payments notification URL (IPN)"
@@ -57,14 +57,14 @@ msgstr "URL de notificación de pagos (IPN)"
 #: ../class_wc_paygol_gateway.php:105
 msgid ""
 "Paste this address on the \"Background URL (IPN)\" field at your service's "
-"configuration, on PayGol's website"
+"configuration, on Paygol's website"
 msgstr ""
 "Pega esta dirección en el campo \"URL de proceso (IPN)\" en la configuración "
-"de tu servicio, en el sitio web de PayGol"
+"de tu servicio, en el sitio web de Paygol"
 
 #: ../class_wc_paygol_gateway.php:114
-msgid "Click the PayGol button to proceed with your purchase"
-msgstr "Haz click en el botón de PayGol para proceder con tu compra"
+msgid "Click the Paygol button to proceed with your purchase"
+msgstr "Haz click en el botón de Paygol para proceder con tu compra"
 
 #: ../class_wc_paygol_gateway.php:165
 msgid "Your order has been completed"
@@ -83,8 +83,8 @@ msgstr ""
 "el proveedor local de pagos"
 
 #: ../paygol_for_woocommerce.php:12
-msgid "PayGol for WooCommerce"
-msgstr "PayGol para WooCommerce"
+msgid "Paygol for WooCommerce"
+msgstr "Paygol para WooCommerce"
 
 #: ../paygol_for_woocommerce.php:12
 msgid ""
@@ -92,26 +92,26 @@ msgid ""
 "variety of both international and local payment methods including credit "
 "cards, debit cards (including Redcompra through WebPay), electronic bank "
 "transfers, cash payments, OXXO, Boleto Bancario, MercadoPago and much more "
-"through the PayGol online payment platform"
+"through the Paygol online payment platform"
 msgstr ""
 "Permite a tus clientes de cualquier lugar del mundo pagar usando una amplia "
 "variedad de métodos de pago tanto internacionales como locales, incluyendo "
 "tarjetas de crédito y débito (incluyendo Redcompra a través de WebPay), "
 "transferencias bancarias, pagos en efectivo, OXXO, Boleto Bancario, "
-"MercadoPago y muchos más a través de la plataforma de pagos en línea PayGol"
+"MercadoPago y muchos más a través de la plataforma de pagos en línea Paygol"
 
 #: ../paygol_for_woocommerce.php:34
 msgid "Documentation"
 msgstr "Documentación"
 
-#~ msgid "Make payments PayGol: the easiest way!"
-#~ msgstr "Realiza pagos con PayGol: la forma más fácil!"
+#~ msgid "Make payments Paygol: the easiest way!"
+#~ msgstr "Realiza pagos con Paygol: la forma más fácil!"
 
 #~ msgid " | Order #"
 #~ msgstr " | Orden #"
 
-#~ msgid "PayGol online payments"
-#~ msgstr "Pagos en línea mediante PayGol"
+#~ msgid "Paygol online payments"
+#~ msgstr "Pagos en línea mediante Paygol"
 
 #~ msgid "<b>Register</b>"
 #~ msgstr "<b>Registrarse</b>"
@@ -119,11 +119,11 @@ msgstr "Documentación"
 #~ msgid "<b>Documentation</b>"
 #~ msgstr "<b>Documentación</b>"
 
-#~ msgid "WooCommerce PayGol Plugin"
-#~ msgstr "WooCommerce PayGol Plugin "
+#~ msgid "WooCommerce Paygol Plugin"
+#~ msgstr "WooCommerce Paygol Plugin "
 
-#~ msgid "payGol"
-#~ msgstr "payGol"
+#~ msgid "paygol"
+#~ msgstr "paygol"
 
 #~ msgid "Name"
 #~ msgstr "Nombre"
@@ -140,5 +140,5 @@ msgstr "Documentación"
 #~ msgid "1123334"
 #~ msgstr "1123334"
 
-#~ msgid "PayGol For  WooCommerce"
-#~ msgstr "PayGol Para WooCommerce"
+#~ msgid "Paygol For  WooCommerce"
+#~ msgstr "Paygol Para WooCommerce"
