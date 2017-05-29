@@ -41,7 +41,6 @@ public function __construct() {
 		 {
 			if( ($get_filtered['frmprice'] == $order->get_total() and $get_filtered['frmcurrency'] == get_woocommerce_currency() ) and $get_filtered['service_id'] == $service_id)
 			  {                           
-
 			  $order->update_status('processing'); ///              
 			  $order->reduce_order_stock();
 			  $woocommerce->cart->empty_cart();           
@@ -70,24 +69,24 @@ public function __construct() {
   function init_form_fields() {
      // 
      $this->form_fields = array(
-    	'enabled' => array(
-    		'title' => __( 'Enable/Disable', 'paygol_wc' ),
-    		'type' => 'checkbox',
-    		'label' => __( 'Enable Paygol payments', 'paygol_wc' ),
-    		'default' => 'yes'
+    		'enabled' 	=> array(
+    		'title' 	=> __( 'Enable/Disable', 'paygol_wc' ),
+    		'type' 		=> 'checkbox',
+    		'label' 	=> __( 'Enable Paygol payments', 'paygol_wc' ),
+    		'default' 	=> 'yes'
     	),
-    	'serviceID' => array(
-    		'title' => __( 'Service ID', 'paygol_wc' ),
-    		'type' => 'text',
-    		'description' => __( 'This is the ID of your Paygol service.', 'paygol_wc' ),
-    		'default' => __( '', 'paygol_wc' ),
+    		'serviceID' 	=> array(
+    		'title' 	=> __( 'Service ID', 'paygol_wc' ),
+    		'type' 		=> 'text',
+    		'description' 	=> __( 'This is the ID of your Paygol service.', 'paygol_wc' ),
+    		'default' 	=> __( '', 'paygol_wc' ),
     		'desc_tip'      => true,
     	),
-		'secretKEY' => array(
-    		'title' => __( 'Secret Key', 'paygol_wc' ),
-    		'type' => 'text',
-    		'description' => __( 'This is the secret key of your Paygol service.', 'paygol_wc' ),
-    		'default' => __( '', 'paygol_wc' ),
+		'secretKEY' 	=> array(
+    		'title' 	=> __( 'Secret Key', 'paygol_wc' ),
+    		'type' 		=> 'text',
+    		'description' 	=> __( 'This is the secret key of your Paygol service.', 'paygol_wc' ),
+    		'default' 	=> __( '', 'paygol_wc' ),
     		'desc_tip'      => true,
     	)
     );
@@ -118,7 +117,7 @@ public function __construct() {
  function generate_paygol_form($orderID) {
 		// Paygol form 
 		global $woocommerce;
-		$order 			   = new WC_Order($orderID);
+		$order 		   = new WC_Order($orderID);
 		$gateway_address   = 'https://www.paygol.com/pay'; 
 		$paygol_args       = $this->prepare_args($order);
 		//$paygol_args_array = array();
@@ -136,14 +135,14 @@ public function __construct() {
     // Prepare Paygol form parameters
 		global $woocommerce;
 		$orderID = $order->id;  // Assign order number               
-		$shopOrderInfo = get_bloginfo('name').' | Order #'.$orderID; // Order information to be shown at the payment screen   // 
+		$shopOrderInfo = get_bloginfo('name').' | Order #'.$orderID; //  
 		add_query_arg( 'wc-api', 'WC_Paygol_Gateway', home_url( '/' ) ); 		                 
 		$args = array (
-				'pg_serviceid'	=> $this->serviceID,         // ID PAYGOL
+				'pg_serviceid'	=> $this->serviceID,         //
 				'pg_currency'	=> get_woocommerce_currency(),  // 
-				'pg_name'		=> $shopOrderInfo,    //   
+				'pg_name'	=> $shopOrderInfo,    //   
 				'pg_custom'     => $orderID,       // 
-				'pg_price'		=> $order->get_total(), // 
+				'pg_price'	=> $order->get_total(), // 
 				'pg_return_url'	=> apply_filters( 'paygol_param_urlOK', $this->get_return_url( $order )), // Success URL
 				'pg_cancel_url'	=> apply_filters( 'paygol_param_urlKO', $order->get_checkout_payment_url())	// Cancel URL            
 		);		
@@ -154,8 +153,8 @@ public function __construct() {
       global $woocommerce; 
 	  $order = new WC_Order( $order_id );
       return array(
-			'result' 	=> 'success',
-			'redirect'	=> $order->get_checkout_payment_url( true ));     
+		'result' 	=> 'success',
+		'redirect'	=> $order->get_checkout_payment_url( true ));     
     } 
   //////////////////////////////////////////////////////////////////////////////
       function order_received($order_id){          
